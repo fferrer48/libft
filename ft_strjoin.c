@@ -6,14 +6,14 @@
 /*   By: fferrer- <fferrer-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/20 21:12:44 by fferrer-          #+#    #+#             */
-/*   Updated: 2022/05/20 21:13:07 by fferrer-         ###   ########.fr       */
+/*   Updated: 2022/05/21 18:51:13 by fferrer-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
 /*
- * Allocates memory for a concatenation of two strings
+ * Allocate memory for a concatenation of two strings
  *
  * @param {s1} First string
  * @param {s2} Second string

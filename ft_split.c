@@ -6,14 +6,14 @@
 /*   By: fferrer- <fferrer-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/20 21:07:57 by fferrer-          #+#    #+#             */
-/*   Updated: 2022/05/20 21:08:08 by fferrer-         ###   ########.fr       */
+/*   Updated: 2022/05/21 18:47:26 by fferrer-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
 /*
- * Counts the number of words in the string
+ * Count the number of words in the string
  *
  * @param {s} String to count at
  * @param {c} Limitator char

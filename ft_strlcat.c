@@ -6,14 +6,14 @@
 /*   By: fferrer- <fferrer-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/20 21:13:40 by fferrer-          #+#    #+#             */
-/*   Updated: 2022/05/21 01:48:08 by fferrer-         ###   ########.fr       */
+/*   Updated: 2022/05/21 18:51:19 by fferrer-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
 /*
- * Appends a copy of src at the end of dest until size-lDest-1 terminating on nul
+ * Append a copy of src at the end of dest until size-lDest-1 terminating on nul
  *
  * @param {dest}	Destination string
  * @param {src}		Source string

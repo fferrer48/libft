@@ -6,14 +6,14 @@
 /*   By: fferrer- <fferrer-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/20 21:14:46 by fferrer-          #+#    #+#             */
-/*   Updated: 2022/05/20 21:14:58 by fferrer-         ###   ########.fr       */
+/*   Updated: 2022/05/21 18:51:21 by fferrer-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
 /*
- * Copies src in dst with a new size of dst (dstsize)
+ * Copie src in dst with a new size of dst (dstsize)
  *
  * @param {dst} Destination array to copy at
  * @param {src} Source array to copy from

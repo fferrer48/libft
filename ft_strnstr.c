@@ -6,14 +6,14 @@
 /*   By: fferrer- <fferrer-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/20 21:19:06 by fferrer-          #+#    #+#             */
-/*   Updated: 2022/05/20 21:19:33 by fferrer-         ###   ########.fr       */
+/*   Updated: 2022/05/21 18:51:29 by fferrer-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
 /*
- * Locates the first ocurrence of a null terminated str1 in str2,
+ * Locate the first ocurrence of a null terminated str1 in str2,
  * no more than n searched
  *
  * @param {haystack} String to search at

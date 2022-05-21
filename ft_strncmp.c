@@ -6,14 +6,14 @@
 /*   By: fferrer- <fferrer-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/20 21:17:29 by fferrer-          #+#    #+#             */
-/*   Updated: 2022/05/20 21:18:14 by fferrer-         ###   ########.fr       */
+/*   Updated: 2022/05/21 18:51:27 by fferrer-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
 /*
- * Compares two strings, stoping at n char.
+ * Compare two strings, stoping at n char.
  *
  * @param {s1}	First string
  * @param {s2}	Second string

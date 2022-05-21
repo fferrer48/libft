@@ -6,7 +6,7 @@
 /*   By: fferrer- <fferrer-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/20 21:22:50 by fferrer-          #+#    #+#             */
-/*   Updated: 2022/05/20 21:24:13 by fferrer-         ###   ########.fr       */
+/*   Updated: 2022/05/21 18:51:37 by fferrer-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 #include <stdio.h>
 
 /*
- * Allocate a substring from the given string that starts and ends
+ * Allocate a substring from the given string that start and end
  * according to the parameters 'start' and 'len'
  *
  * @param {s} String to substract the substring

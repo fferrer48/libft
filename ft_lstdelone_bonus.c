@@ -1,35 +1,25 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_putendl_fd.c                                    :+:      :+:    :+:   */
+/*   ft_lstdelone_bonus.c                               :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: fferrer- <fferrer-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/05/20 21:05:13 by fferrer-          #+#    #+#             */
-/*   Updated: 2022/05/21 18:47:11 by fferrer-         ###   ########.fr       */
+/*   Created: 2022/05/20 21:43:47 by fferrer-          #+#    #+#             */
+/*   Updated: 2022/05/21 18:51:48 by fferrer-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
 /*
- * Copies the give string in the file fd with EOL
+ * Free and deletes a node's content
  *
- * @param {s} String to copy
- * @param {fd} File to copy at
+ * @param {lst} node to delete content, keeping 'next'
+ * @param {del} Function to delete a node
  */
-void	ft_putendl_fd(char	*s, int fd)
+void	ft_lstdelone(t_list *lst, void (*del)(void *))
 {
-	size_t	i;
-
-	i = 0;
-	if (s)
-	{
-		while (s[i])
-		{
-			ft_putchar_fd(s[i], fd);
-			i++;
-		}
-		ft_putchar_fd('\n', fd);
-	}
+	del(lst->content);
+	free(lst);
 }

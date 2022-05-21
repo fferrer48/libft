@@ -6,14 +6,14 @@
 /*   By: fferrer- <fferrer-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/20 21:02:19 by fferrer-          #+#    #+#             */
-/*   Updated: 2022/05/21 01:47:08 by fferrer-         ###   ########.fr       */
+/*   Updated: 2022/05/21 18:52:02 by fferrer-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
 /*
- * As memcpy, copies len bytes from src to dst but treating overlap.
+ * As memcpy, copie len bytes from src to dst but treating overlap.
  *
  * @param {dst} String to copy at
  * @param {src} String to copy from

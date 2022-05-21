@@ -1,35 +1,33 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_putendl_fd.c                                    :+:      :+:    :+:   */
+/*   ft_lstsize_bonus.c                                 :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: fferrer- <fferrer-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/05/20 21:05:13 by fferrer-          #+#    #+#             */
-/*   Updated: 2022/05/21 18:47:11 by fferrer-         ###   ########.fr       */
+/*   Created: 2022/05/20 21:51:40 by fferrer-          #+#    #+#             */
+/*   Updated: 2022/05/21 18:45:55 by fferrer-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
 /*
- * Copies the give string in the file fd with EOL
+ * Count the number of nodes in the list
  *
- * @param {s} String to copy
- * @param {fd} File to copy at
+ * @param {lst} List to count
+ *
+ * @return {size} Length of the list
  */
-void	ft_putendl_fd(char	*s, int fd)
+int	ft_lstsize(t_list *lst)
 {
-	size_t	i;
+	int	size;
 
-	i = 0;
-	if (s)
+	size = 0;
+	while (lst)
 	{
-		while (s[i])
-		{
-			ft_putchar_fd(s[i], fd);
-			i++;
-		}
-		ft_putchar_fd('\n', fd);
+		lst = lst->next;
+		size++;
 	}
+	return (size);
 }

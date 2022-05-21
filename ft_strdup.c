@@ -6,14 +6,14 @@
 /*   By: fferrer- <fferrer-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/20 21:10:23 by fferrer-          #+#    #+#             */
-/*   Updated: 2022/05/20 21:10:33 by fferrer-         ###   ########.fr       */
+/*   Updated: 2022/05/21 18:47:32 by fferrer-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
 /*
- * Allocates sufficient momery for a copy of s1,
+ * Allocate sufficient momery for a copy of s1,
  * copies it and returns its pointer.
  *
  * @param {s1} String to copy

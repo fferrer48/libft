@@ -6,14 +6,14 @@
 /*   By: fferrer- <fferrer-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/20 21:09:34 by fferrer-          #+#    #+#             */
-/*   Updated: 2022/05/20 21:09:52 by fferrer-         ###   ########.fr       */
+/*   Updated: 2022/05/21 18:47:29 by fferrer-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
 /*
- * Finds the first coincidence of given char in string and returns its address
+ * Find the first coincidence of given char in string and returns its address
  *
  * @param {s} String to search at
  * @param {c} Char to find in s

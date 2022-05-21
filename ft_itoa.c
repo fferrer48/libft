@@ -6,12 +6,12 @@
 /*   By: fferrer- <fferrer-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/20 20:36:36 by fferrer-          #+#    #+#             */
-/*   Updated: 2022/05/21 01:44:47 by fferrer-         ###   ########.fr       */
+/*   Updated: 2022/05/21 18:51:43 by fferrer-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 /*
- * Turns an int into an array
+ * Turn an int into an array
  *
  * @param {n} Number to transform
  *

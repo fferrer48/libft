@@ -6,14 +6,14 @@
 /*   By: fferrer- <fferrer-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/20 21:20:59 by fferrer-          #+#    #+#             */
-/*   Updated: 2022/05/21 10:32:16 by fferrer-         ###   ########.fr       */
+/*   Updated: 2022/05/21 18:51:33 by fferrer-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
 /*
- * Finds the last coincidence of give char in string and returns its address
+ * Find the last coincidence of give char in string and returns its address
  *
  * @param {s} String to search at
  * @param {c} Char to find in s

@@ -6,14 +6,14 @@
 /*   By: fferrer- <fferrer-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/20 20:59:05 by fferrer-          #+#    #+#             */
-/*   Updated: 2022/05/21 01:43:01 by fferrer-         ###   ########.fr       */
+/*   Updated: 2022/05/21 18:46:18 by fferrer-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
 /*
- * Compares two strings that are both n bytes long
+ * Compare two strings that are both n bytes long
  *
  * @param {s1}	First string to compare
  * @param {s2}	Second string to compare

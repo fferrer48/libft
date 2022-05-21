@@ -6,7 +6,7 @@
 /*   By: fferrer- <fferrer-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/20 20:58:11 by fferrer-          #+#    #+#             */
-/*   Updated: 2022/05/20 20:58:26 by fferrer-         ###   ########.fr       */
+/*   Updated: 2022/05/21 18:46:13 by fferrer-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,7 @@
 #include <string.h> */
 
 /*
- * Locates the first ocurrence of c in string s
+ * Locate the first ocurrence of c in string s
  *
  * @param {s}	String to search at
  * @param {c}	Char to find

@@ -6,16 +6,19 @@
 /*   By: fferrer- <fferrer-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/20 21:26:36 by fferrer-          #+#    #+#             */
-/*   Updated: 2022/05/20 21:27:26 by fferrer-         ###   ########.fr       */
+/*   Updated: 2022/05/21 18:51:53 by fferrer-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef LIBFT_H
 # define LIBFT_H
 
-# include <stdlib.h>
-# include <unistd.h>
-# include <stdio.h>
+# include<stdio.h>
+# include<unistd.h>
+# include<ctype.h>
+# include<stdlib.h>
+# include<string.h>
+# include<stddef.h>
 
 typedef struct s_list
 {

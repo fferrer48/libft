@@ -1,35 +1,28 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_putendl_fd.c                                    :+:      :+:    :+:   */
+/*   ft_lstadd_front_bonus.c                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: fferrer- <fferrer-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/05/20 21:05:13 by fferrer-          #+#    #+#             */
-/*   Updated: 2022/05/21 18:47:11 by fferrer-         ###   ########.fr       */
+/*   Created: 2022/05/20 21:41:53 by fferrer-          #+#    #+#             */
+/*   Updated: 2022/05/21 18:45:07 by fferrer-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
 /*
- * Copies the give string in the file fd with EOL
+ * Add a new node to the start of the list
  *
- * @param {s} String to copy
- * @param {fd} File to copy at
+ * @param {lst} list of nodes
+ * @param {new} New node to add at the start
  */
-void	ft_putendl_fd(char	*s, int fd)
+void	ft_lstadd_front(t_list **lst, t_list *new)
 {
-	size_t	i;
-
-	i = 0;
-	if (s)
+	if (lst && new)
 	{
-		while (s[i])
-		{
-			ft_putchar_fd(s[i], fd);
-			i++;
-		}
-		ft_putchar_fd('\n', fd);
+		new->next = *lst;
+		*lst = new;
 	}
 }

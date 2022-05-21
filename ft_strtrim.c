@@ -6,7 +6,7 @@
 /*   By: fferrer- <fferrer-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/20 21:22:02 by fferrer-          #+#    #+#             */
-/*   Updated: 2022/05/21 01:55:20 by fferrer-         ###   ########.fr       */
+/*   Updated: 2022/05/21 18:51:35 by fferrer-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,7 @@
 /* #include <stdio.h> */
 
 /*
- * Counts how many chars from set are at start from trim
+ * Count how many chars from set are at start from trim
  *
  * @param {set} String with the chars to delete
  * @param {trim} Original string to trimmer from

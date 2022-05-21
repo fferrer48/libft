@@ -6,14 +6,14 @@
 /*   By: fferrer- <fferrer-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/20 21:15:25 by fferrer-          #+#    #+#             */
-/*   Updated: 2022/05/20 21:16:16 by fferrer-         ###   ########.fr       */
+/*   Updated: 2022/05/21 18:51:23 by fferrer-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
 /*
- * Calculates the length of a string
+ * Calculate the length of a string
  *
  * @param {str} String to measure.
  * @return {i} Length of str

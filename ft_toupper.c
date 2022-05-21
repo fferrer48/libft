@@ -6,12 +6,12 @@
 /*   By: fferrer- <fferrer-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/20 21:25:39 by fferrer-          #+#    #+#             */
-/*   Updated: 2022/05/20 21:25:59 by fferrer-         ###   ########.fr       */
+/*   Updated: 2022/05/21 18:51:41 by fferrer-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 /*
- * Transforms a lowercase char into upper
+ * Transform a lowercase char into upper
  *
  * @param {c} char to transform
  *
